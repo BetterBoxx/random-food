@@ -3,13 +3,13 @@ import fs from "fs";
 // Constants
 let randomFoodItem = "";
 const ketoFoodList = JSON.parse(
-	fs.readFileSync("./plugins/random-food/ketoDB.json", "utf8")
+	fs.readFileSync("./node_modules/random-food/ketoDB.json", "utf8")
 );
 const foodList = JSON.parse(
-	fs.readFileSync("./plugins/random-food/foodDB.json", "utf8")
+	fs.readFileSync("./node_modules/random-food/foodDB.json", "utf8")
 );
 const suffixList = JSON.parse(
-	fs.readFileSync("./plugins/random-food/suffixDB.json", "utf8")
+	fs.readFileSync("./node_modules/random-food/suffixDB.json", "utf8")
 );
 
 export function randomFood(msg) {
