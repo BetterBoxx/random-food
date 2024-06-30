@@ -1,4 +1,7 @@
+import * as dotenv from "dotenv";
 import fs from "fs";
+
+dotenv.config({ path: "./.env" });
 
 // Constants
 let randomFoodItem = "";

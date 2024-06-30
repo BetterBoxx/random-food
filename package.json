@@ -16,5 +16,8 @@
     "url": "https://github.com/BetterBoxx/random-food/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/BetterBoxx/random-food#readme"
+  "homepage": "https://github.com/BetterBoxx/random-food#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
